@@ -50,6 +50,13 @@ seo: {
   imageURL: '',
 },
   
+hero: {
+  name: 'Doudou Cao 曹豆豆',
+  title: 'Bioarchaeologist | Quantitative Human Biology | Ancient China',
+  description:
+    'I study how humans grew, lived, and adapted across changing environments and historical conditions. My work combines skeletal evidence, environmental data, and quantitative modelling to investigate health, growth, violence, and biocultural adaptation in ancient populations.',
+},  
+  
   social: {
     linkedin: 'doudou-cao-500081266',
     x: '',
