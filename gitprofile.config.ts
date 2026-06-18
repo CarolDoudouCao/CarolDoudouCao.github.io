@@ -73,12 +73,9 @@ const CONFIG = {
     email: 'dcao@hku.hk',
   },
 
-  resume: {
-    // Add your CV link later.
-    // Example if you upload it to the public folder:
-    // fileUrl: '/Doudou_Cao_CV.pdf',
-    fileUrl: '',
-  },
+resume: {
+  fileUrl: '/Doudou_Cao_CV.pdf',
+},
 
   skills: [
     'Biological Anthropology',
