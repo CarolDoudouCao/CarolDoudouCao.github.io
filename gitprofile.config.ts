@@ -37,12 +37,6 @@ projects: {
     },
   },
 
-  external: {
-    header: 'Research Projects',
-    projects: [],
-  },
-},
-
 
     external: {
       header: 'Research Projects',
@@ -62,7 +56,7 @@ projects: {
     linkedin: 'doudou-cao-500081266',
     x: '',
     mastodon: '',
-    researchGate: 'https://www.researchgate.net/profile/Cao-Doudou',
+    researchGate: 'Cao-Doudou',
     facebook: '',
     instagram: '',
     reddit: '',
@@ -98,7 +92,7 @@ projects: {
   experiences: [
     {
       company: 'The University of Hong Kong',
-      position: 'Research Assitant Professor, Institute for the Humanities and Social Sciences',
+      position: 'Research Assistant Professor, Institute for the Humanities and Social Sciences',
       from: '2026',
       to: 'Present',
       companyLink: 'https://www.hku.hk',
