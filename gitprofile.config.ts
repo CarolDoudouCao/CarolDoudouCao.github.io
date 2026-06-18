@@ -142,6 +142,17 @@ publications: [
       'A large-scale Bayesian analysis of how ecology, population history, urbanisation, and recent historical change shaped human body form across modern China.',
   },
   {
+  title:
+    'Subsistence change in Iron Age to Tubo-period western Xizang: A stable isotope study from Phiyang Dunkar',
+  conferenceName: '',
+  journalName: 'Journal of Archaeological Science: Reports',
+  authors:
+    'Xin Wang, Anqi Yang, Feng Yang, Haibing Yuan, Doudou Cao, Jie Li, Wei Huo, Suwen Lu, Shuai Li',
+  link: 'https://doi.org/10.1016/j.jasrep.2026.105639',
+  description:
+    'A stable isotope study of human and faunal remains from Phiyang Dunkar, examining long-term subsistence change from the Iron Age to the Tubo period in western Xizang.',
+},
+  {
     title:
       'Dental caries as indicators of agricultural practices in the foothills of Neolithic China',
     conferenceName: '',
@@ -177,22 +188,24 @@ publications: [
       'Life history of a high-class noblewoman from the late Shu state in the Chengdu Plain during the Eastern Zhou period (770–221 BC): Childhood stresses and stable life',
     conferenceName: '',
     journalName: 'International Journal of Osteoarchaeology',
-    authors: 'Bing Yi, Haibing Yuan, Tianyi Wang, Doudou Cao, Yang Yang, Yaowu Hu',
+    authors: 'Bing Yi, Haibing Yuan, Tianyou Wang, Doudou Cao, Yingdong Yang, Yaowu Hu',
     link: 'https://doi.org/10.1002/oa.3282',
     description:
       'A life-history reconstruction of a high-status Eastern Zhou individual using skeletal and stable isotope evidence.',
   },
 
-  {
-    title:
-      'Ancient genomes reveal millet farming-related demic diffusion from the Yellow River into southwest China',
-    conferenceName: '',
-    journalName: 'Current Biology',
-    authors: 'Le Tao, Haibing Yuan, Kongyang Zhu, Xiangyu Liu, et al.',
-    link: 'https://doi.org/10.1016/j.cub.2023.09.055',
-    description:
-      'An ancient DNA study examining population movements and millet-farming-related demic diffusion from the Yellow River into southwest China.',
-  },
+{
+  title:
+    'Ancient genomes reveal millet farming-related demic diffusion from the Yellow River into southwest China',
+  conferenceName: '',
+  journalName: 'Current Biology',
+  authors:
+    'Le Tao, Haibing Yuan, Kongyang Zhu, Xiangyu Liu, Jianxin Guo, Rui Min, Haifeng He, Doudou Cao, Xiaomin Yang, Zhiqing Zhou, Rui Wang, Deyun Zhao, Hao Ma, Jian Chen, Jing Zhao, Yingfu Li, Yuanhong He, Dehao Suo, Ruojing Zhang, Shuai Li, Lan Li, Feng Yang, Haichao Li, Liang Zhang, Li Jin, Chuan-Chao Wang',
+  link: 'https://doi.org/10.1016/j.cub.2023.09.055',
+  description:
+    'An ancient DNA study examining population movement, millet farming, and mixed farming dispersal from the Yellow River into southwest China.',
+},
+
   {
     title:
       'Sding Chung: An early multi-burial cave site on the Tibetan Plateau',
