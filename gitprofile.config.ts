@@ -68,7 +68,7 @@ const CONFIG = {
     stackoverflow: '',
     discord: '',
     telegram: '',
-    website: 'https://CarolDoudouCao.github.io',
+    website: 'https://ihss.hku.hk/portfolio/doudou-cao/',
     phone: '',
     email: 'dcao@hku.hk',
   },
@@ -94,7 +94,7 @@ const CONFIG = {
       position: 'Research Assistant Professor, Institute for the Humanities and Social Sciences',
       from: '2026',
       to: 'Present',
-      companyLink: 'https://www.hku.hk',
+      companyLink: 'https://ihss.hku.hk/portfolio/doudou-cao/',
     },
 
   ],
