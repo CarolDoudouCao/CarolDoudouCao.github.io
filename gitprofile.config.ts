@@ -169,7 +169,7 @@ publications: [
       'Life history of a high-class noblewoman from the late Shu state in the Chengdu Plain during the Eastern Zhou period (770–221 BC): Childhood stresses and stable life',
     conferenceName: '',
     journalName: 'International Journal of Osteoarchaeology',
-    authors: 'Bao Yi, Haibing Yuan, Tianyi Wang, Doudou Cao, Yang Yang, Yaowu Hu',
+    authors: 'Bing Yi, Haibing Yuan, Tianyi Wang, Doudou Cao, Yang Yang, Yaowu Hu',
     link: 'https://doi.org/10.1002/oa.3282',
     description:
       'A life-history reconstruction of a high-status Eastern Zhou individual using skeletal and stable isotope evidence.',
