@@ -44,9 +44,9 @@ const CONFIG = {
   },
 
   seo: {
-    title: 'Doudou Cao | Bioarchaeology and Quantitative Human Biology',
+    title: 'Doudou Cao 曹豆豆 | Bioarchaeology and Quantitative Human Biology',
     description:
-      'Biological anthropologist and archaeologist studying health, growth, violence, and adaptation in ancient populations through skeletal evidence, environmental data, and quantitative modelling, with a focus on ancient China.',
+      'I am a biological anthropologist and archaeologist working at the intersection of human biology, archaeology, and computational modelling. I use quantitative approaches to human remains and environmental data to investigate how ancient populations grew, developed, and adapted — biologically and culturally — across changing landscapes and historical conditions, with a particular focus on ancient China.',
     imageURL: '',
   },
   
