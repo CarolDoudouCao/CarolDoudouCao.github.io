@@ -124,7 +124,7 @@ const CONFIG = {
     {
       institution: 'Sichuan University',
       degree: 'BA in Archaeology',
-      from: '2015',
+      from: '2014',
       to: '2018',
     },
   ],
