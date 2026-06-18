@@ -46,16 +46,12 @@ const CONFIG = {
 seo: {
   title: 'Doudou Cao 曹豆豆 | Bioarchaeology, Skeletal Biology & Quantitative Modelling',
   description:
-    'Biological anthropologist and archaeologist using skeletal evidence, environmental data, and quantitative modelling to study growth, health, violence, and biocultural adaptation in ancient China.',
+    'description:
+  'I study how ancient populations experienced health, growth, violence, and adaptation across changing environments and historical processes, using skeletal evidence, morphometric data, spatial analysis, and quantitative modelling.',
   imageURL: '',
 },
   
-hero: {
-  name: 'Doudou Cao 曹豆豆',
-  title: 'Bioarchaeologist | Quantitative Human Biology | Ancient China',
-  description:
-    'I study how humans grew, lived, and adapted across changing environments and historical conditions. My work combines skeletal evidence, environmental data, and quantitative modelling to investigate health, growth, violence, and biocultural adaptation in ancient populations.',
-},  
+
   
   social: {
     linkedin: 'doudou-cao-500081266',
