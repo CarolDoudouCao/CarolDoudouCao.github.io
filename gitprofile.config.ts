@@ -174,16 +174,7 @@ publications: [
     description:
       'A life-history reconstruction of a high-status Eastern Zhou individual using skeletal and stable isotope evidence.',
   },
-  {
-    title:
-      'Paleoproteomic evidence reveals dairying supported prehistoric occupation of the highland Tibetan Plateau',
-    conferenceName: '',
-    journalName: 'Science Advances',
-    authors: 'Li Tang et al.',
-    link: 'https://doi.org/10.1126/sciadv.adf0345',
-    description:
-      'A paleoproteomic study showing the importance of dairying in prehistoric high-altitude occupation on the Tibetan Plateau.',
-  },
+
   {
     title:
       'Ancient genomes reveal millet farming-related demic diffusion from the Yellow River into southwest China',
