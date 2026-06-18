@@ -12,28 +12,37 @@ const CONFIG = {
    */
   base: '/',
 
-  projects: {
-    github: {
-      display: true,
-      header: 'Data and Code',
-      mode: 'automatic', // You can change this to 'manual' later
-      automatic: {
-        sortBy: 'updated',
-        limit: 6,
-        exclude: {
-          forks: true,
-          projects: [
-            'CarolDoudouCao/CarolDoudouCao.github.io',
-          ],
-        },
-      },
-      manual: {
+projects: {
+  github: {
+    display: true,
+    header: 'Data and Code',
+    mode: 'manual',
+    automatic: {
+      sortBy: 'updated',
+      limit: 6,
+      exclude: {
+        forks: true,
         projects: [
-          // Add selected repositories here later, for example:
-          // 'CarolDoudouCao/your-repo-name',
+          'CarolDoudouCao/CarolDoudouCao.github.io',
+          'CarolDoudouCao/CDH_repro_quarto_example',
         ],
       },
     },
+    manual: {
+      projects: [
+        'CarolDoudouCao/ModernBodyForm_China',
+        'CarolDoudouCao/Archaeo_Bodyform_China',
+        'CarolDoudouCao/Aggregate_IntraLimb_Proportions_for_Commingled_Remains',
+      ],
+    },
+  },
+
+  external: {
+    header: 'Research Projects',
+    projects: [],
+  },
+},
+
 
     external: {
       header: 'Research Projects',
