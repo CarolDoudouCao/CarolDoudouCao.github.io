@@ -82,9 +82,10 @@ const CONFIG = {
 
   skills: [
     'Biological Anthropology',
+    'Quantitative and Computational Archaeology',
     'Human Osteology',
     'Bayesian Modelling',
-    '3D Morphometrics',
+    '3D Morphometrics',    
   ],
 
   experiences: [
@@ -98,7 +99,14 @@ const CONFIG = {
 
   ],
 
-  certifications: [],
+  certifications: [{ name: 'Harding Distinguished Postgraduate Scholars Programme', 
+                    body: 'University of Cambridge', 
+                    year: '2021–2025', 
+                    link: 'https://www.hardingscholars.fund.cam.ac.uk/dr-doudou-cao', }, 
+                   { name: 'ICRC Research Scholarship for work related to missing persons and unidentified human remains', 
+                    body: 'International Committee of the Red Cross', 
+                    year: '2022', 
+                    link: '', },],
 
   educations: [
     {
