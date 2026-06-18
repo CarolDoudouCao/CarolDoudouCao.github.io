@@ -46,7 +46,6 @@ const CONFIG = {
 seo: {
   title: 'Doudou Cao 曹豆豆 | Bioarchaeology, Skeletal Biology & Quantitative Modelling',
   description:
-    'description:
   'I study how ancient populations experienced health, growth, violence, and adaptation across changing environments and historical processes, using skeletal evidence, morphometric data, spatial analysis, and quantitative modelling.',
   imageURL: '',
 },
