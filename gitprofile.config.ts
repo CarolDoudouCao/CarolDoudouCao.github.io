@@ -12,45 +12,43 @@ const CONFIG = {
    */
   base: '/',
 
-projects: {
-  github: {
-    display: true,
-    header: 'Data and Code',
-    mode: 'manual',
-    automatic: {
-      sortBy: 'updated',
-      limit: 6,
-      exclude: {
-        forks: true,
+  projects: {
+    github: {
+      display: true,
+      header: 'Data and Code',
+      mode: 'manual',
+      automatic: {
+        sortBy: 'updated',
+        limit: 6,
+        exclude: {
+          forks: true,
+          projects: [
+            'CarolDoudouCao/CarolDoudouCao.github.io',
+            'CarolDoudouCao/CDH_repro_quarto_example',
+          ],
+        },
+      },
+      manual: {
         projects: [
-          'CarolDoudouCao/CarolDoudouCao.github.io',
-          'CarolDoudouCao/CDH_repro_quarto_example',
+          'CarolDoudouCao/ModernBodyForm_China',
+          'CarolDoudouCao/Archaeo_Bodyform_China',
+          'CarolDoudouCao/Aggregate_IntraLimb_Proportions_for_Commingled_Remains',
         ],
       },
     },
-    manual: {
-      projects: [
-        'CarolDoudouCao/ModernBodyForm_China',
-        'CarolDoudouCao/Archaeo_Bodyform_China',
-        'CarolDoudouCao/Aggregate_IntraLimb_Proportions_for_Commingled_Remains',
-      ],
-    },
-  },
-
 
     external: {
       header: 'Research Projects',
-      // Keep this empty for now. You can add project cards later.
       projects: [],
     },
   },
 
   seo: {
-  title: 'Doudou Cao | Bioarchaeology and Quantitative Human Biology',
-  description:
-    'Biological anthropologist and archaeologist studying health, growth, violence, and adaptation in ancient populations through skeletal evidence, environmental data, and quantitative modelling, with a focus on ancient China.',
-  imageURL: '',
-},
+    title: 'Doudou Cao | Bioarchaeology and Quantitative Human Biology',
+    description:
+      'Biological anthropologist and archaeologist studying health, growth, violence, and adaptation in ancient populations through skeletal evidence, environmental data, and quantitative modelling, with a focus on ancient China.',
+    imageURL: '',
+  },
   
   social: {
     linkedin: 'doudou-cao-500081266',
