@@ -84,8 +84,9 @@ const CONFIG = {
     'Biological Anthropology',
     'Quantitative and Computational Archaeology',
     'Human Osteology',
-    'Bayesian Modelling',
-    '3D Morphometrics',    
+    'Bayesian Inference',
+    '3D Morphometrics',
+    'Human Population Biology and Health',
   ],
 
   experiences: [
