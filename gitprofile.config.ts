@@ -2,182 +2,244 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'CarolDoudouCao', // Your actual GitHub username
   },
+
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * Because your repository is CarolDoudouCao.github.io,
+   * and your website will be https://CarolDoudouCao.github.io/,
+   * base should be '/'.
    */
-  base: '/gitprofile/',
+  base: '/',
+
   projects: {
     github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      display: true,
+      header: 'Data and Code',
+      mode: 'automatic', // You can change this to 'manual' later
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'updated',
+        limit: 6,
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: true,
+          projects: [
+            'CarolDoudouCao/CarolDoudouCao.github.io',
+          ],
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          // Add selected repositories here later, for example:
+          // 'CarolDoudouCao/your-repo-name',
+        ],
       },
     },
+
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+      header: 'Research Projects',
+      // Keep this empty for now. You can add project cards later.
+      projects: [],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+
+  seo: {
+  title: 'Doudou Cao | Bioarchaeology and Quantitative Human Biology',
+  description:
+    'Biological anthropologist and archaeologist studying health, growth, violence, and adaptation in ancient populations through skeletal evidence, environmental data, and quantitative modelling, with a focus on ancient China.',
+  imageURL: '',
+},
+  
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
+    linkedin: 'doudou-cao-500081266',
+    x: '',
+    mastodon: '',
+    researchGate: 'https://www.researchgate.net/profile/Cao-Doudou',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: '',
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://CarolDoudouCao.github.io',
     phone: '',
-    email: '',
+    email: 'dcao@hku.hk',
   },
+
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    // Add your CV link later.
+    // Example if you upload it to the public folder:
+    // fileUrl: '/Doudou_Cao_CV.pdf',
+    fileUrl: '',
   },
+
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Biological Anthropology',
+    'Human Osteology',
+    'Bayesian Modelling',
+    '3D Morphometrics',
   ],
+
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'The University of Hong Kong',
+      position: 'Research Assitant Professor, Institute for the Humanities and Social Sciences',
+      from: '2026',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.hku.hk',
     },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+
+  certifications: [],
+
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'University of Cambridge',
+      degree: 'PhD in Biological Anthropology',
+      from: '2021',
+      to: '2025',
+    },
+    {
+      institution: 'Sichuan University',
+      degree: 'MA in Archaeology',
+      from: '2018',
+      to: '2021',
+    },
+    {
+      institution: 'Sichuan University',
+      degree: 'BA in Archaeology',
       from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      to: '2018',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
-  // Display articles from your medium or dev account. (Optional)
+
+
+publications: [
+  {
+    title:
+      'Multifactorial drivers of spatial variation in human body form across modern China',
+    conferenceName: '',
+    journalName: 'Scientific Reports',
+    authors: 'Doudou Cao, Enrico R. Crema, Emma Pomeroy',
+    link: 'https://doi.org/10.1038/s41598-026-57537-8',
+    description:
+      'A large-scale Bayesian analysis of how ecology, population history, urbanisation, and recent historical change shaped human body form across modern China.',
+  },
+  {
+    title:
+      'Dental caries as indicators of agricultural practices in the foothills of Neolithic China',
+    conferenceName: '',
+    journalName: 'Archaeological Research in Asia',
+    authors:
+      'Doudou Cao, Xiangyu Liu, Wanfa Gu, Hong Zhu, Ruojing Zhang, Zhiqing Zhou, Qingli Wei, Jiaxing Zou, Yujie Qiu, Jian Chen, Lanpo Ding, Emma Pomeroy, Haibing Yuan',
+    link: 'https://doi.org/10.1016/j.ara.2025.100645',
+    description:
+      'A comparative bioarchaeological study of dental caries, subsistence strategies, and oral health in middle-to-late Neolithic foothill communities in China.',
+  },
+  {
+    title:
+      'Multi-Isotope analysis reveals human millet-based diets and limited mobility in the Central Plains of China ca. 5000 Years Ago',
+    conferenceName: '',
+    journalName: 'International Journal of Osteoarchaeology',
+    authors:
+      'Xueye Wang, Doudou Cao, Wanfa Gu, Qingli Wei, Xianglong Chen, Ruojing Zhang, Lanpo Ding, Zihua Tang, Xiaoxiao Teng, Tianyi Wang, Jiaxing Zou, Yujie Qiu, Qiaomei Fu, Haibing Yuan',
+    link: 'https://doi.org/10.1002/oa.3407',
+    description:
+      'A multi-isotope study reconstructing millet-based diets and mobility patterns in early Central Plains populations.',
+  },
+  {
+    title: 'Estimating intralimb proportions for commingled remains',
+    conferenceName: '',
+    journalName: 'International Journal of Osteoarchaeology',
+    authors: 'Doudou Cao, Enrico R. Crema, Emma Pomeroy',
+    link: 'https://doi.org/10.1002/oa.3326',
+    description:
+      'A methodological study evaluating how aggregate limb-bone measurements can be used to estimate intralimb proportions in commingled skeletal assemblages.',
+  },
+  {
+    title:
+      'Life history of a high-class noblewoman from the late Shu state in the Chengdu Plain during the Eastern Zhou period (770–221 BC): Childhood stresses and stable life',
+    conferenceName: '',
+    journalName: 'International Journal of Osteoarchaeology',
+    authors: 'Bao Yi, Haibing Yuan, Tianyi Wang, Doudou Cao, Yang Yang, Yaowu Hu',
+    link: 'https://doi.org/10.1002/oa.3282',
+    description:
+      'A life-history reconstruction of a high-status Eastern Zhou individual using skeletal and stable isotope evidence.',
+  },
+  {
+    title:
+      'Paleoproteomic evidence reveals dairying supported prehistoric occupation of the highland Tibetan Plateau',
+    conferenceName: '',
+    journalName: 'Science Advances',
+    authors: 'Li Tang et al.',
+    link: 'https://doi.org/10.1126/sciadv.adf0345',
+    description:
+      'A paleoproteomic study showing the importance of dairying in prehistoric high-altitude occupation on the Tibetan Plateau.',
+  },
+  {
+    title:
+      'Ancient genomes reveal millet farming-related demic diffusion from the Yellow River into southwest China',
+    conferenceName: '',
+    journalName: 'Current Biology',
+    authors: 'Le Tao, Haibing Yuan, Kongyang Zhu, Xiangyu Liu, et al.',
+    link: 'https://doi.org/10.1016/j.cub.2023.09.055',
+    description:
+      'An ancient DNA study examining population movements and millet-farming-related demic diffusion from the Yellow River into southwest China.',
+  },
+  {
+    title:
+      'Sding Chung: An early multi-burial cave site on the Tibetan Plateau',
+    conferenceName: '',
+    journalName: 'Antiquity',
+    authors: 'Hongliang Lu, Ziyan Li, Chilie Ciren, Doudou Cao, Xuan Gao, Linhui Li',
+    link: 'https://doi.org/10.15184/aqy.2022.42',
+    description:
+      'A report on an early multi-burial cave site on the Tibetan Plateau, with evidence for high-altitude mortuary practice and human occupation.',
+  },
+  {
+    title:
+      'Analysis of dental caries in the Yangshao population at the Qingtai site, Zhengzhou city',
+    conferenceName: '',
+    journalName: 'Acta Anthropologica Sinica',
+    authors: 'Haibing Yuan, Wanfa Gu, Qingli Wei, Qian Wu, Lanpo Ding, Doudou Cao',
+    link: 'https://www.anthropol.ac.cn/EN/10.16359/j.1000-3193/AAS.2021.0023',
+    description:
+      'A study of dental caries in the Yangshao-period population from the Qingtai site in Zhengzhou, China.',
+  },
+],
+
+
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'dev',
+    username: '', // Keep empty to hide blog section
+    limit: 2,
   },
+
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '',
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: { id: '', snippetVersion: 6 },
+
+  hotjar: {
+    id: '',
+    snippetVersion: 6,
+  },
+
   themeConfig: {
     defaultTheme: 'lofi',
 
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
 
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
 
-    // Display the ring in Profile picture
     displayAvatarRing: true,
 
-    // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
@@ -185,45 +247,21 @@ const CONFIG = {
       'bumblebee',
       'emerald',
       'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
       'lofi',
       'pastel',
       'fantasy',
       'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
       'winter',
-      'dim',
       'nord',
-      'sunset',
-      'caramellatte',
-      'abyss',
       'silk',
-      'procyon',
     ],
   },
 
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `© DoudouCao. Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a>.`,
 
   enablePWA: true,
 };
