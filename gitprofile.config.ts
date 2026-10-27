@@ -39,8 +39,13 @@ manual: {
     },
 
     external: {
-      header: 'Research Projects',
-      projects: [],
+       header: 'Research Projects',
+  projects: [
+    {
+      title: 'The Cost of Complexity',
+      description:
+        'Modelling inequality in growth and adult mortality across long-term social transitions in China’s Central Plains. Principal Investigator; supported by the HKU URC Seed Fund for Basic Research for New Staff (2026–2028; HK$150,000).',
+      link: 'https://ihss.hku.hk/portfolio/doudou-cao/',
     },
   },
 
@@ -80,14 +85,14 @@ resume: {
   fileUrl: '/Doudou_Cao_CV.pdf',
 },
 
-  skills: [
-    'Biological Anthropology',
-    'Quantitative and Computational Archaeology',
-    'Human Osteology',
-    'Bayesian Inference',
-    '3D Morphometrics',
-    'Human Population Biology and Health',
-  ],
+skills: [
+  'Bioarchaeology and Human Osteology',
+  'Quantitative and Computational Archaeology',
+  'Bayesian and Spatiotemporal Modelling',
+  '3D Morphometrics',
+  'Human Growth and Development',
+  'Palaeopathology',
+],
 
   experiences: [
     {
