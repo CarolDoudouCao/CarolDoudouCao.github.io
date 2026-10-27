@@ -28,13 +28,14 @@ const CONFIG = {
           ],
         },
       },
-      manual: {
-        projects: [
-          'CarolDoudouCao/ModernBodyForm_China',
-          'CarolDoudouCao/Archaeo_Bodyform_China',
-          'CarolDoudouCao/Aggregate_IntraLimb_Proportions_for_Commingled_Remains',
-        ],
-      },
+manual: {
+  projects: [
+    'CarolDoudouCao/ModernBodyForm_China',
+    'CarolDoudouCao/Archaeo_Bodyform_China',
+    'CarolDoudouCao/Ancient_Highland_Tibetan_Body_Form_Analysis',
+    'CarolDoudouCao/Aggregate_IntraLimb_Proportions_for_Commingled_Remains',
+  ],
+},
     },
 
     external: {
